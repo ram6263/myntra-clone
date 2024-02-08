@@ -1,0 +1,126 @@
+.bag-container{
+    width: 80%;
+    margin-left:13%;
+}
+.bag-items-conatiner{
+display: inline-block;
+  width: 60%;
+  padding-right: 20px;
+  border-right: 1px solid #eaeaec;
+  padding-top: 32px;
+  color: #282c3f;
+  font-size: 13px;
+  line-height: 1.42857143;
+
+}
+.bag-item-conatiner{
+ margin-bottom: 8px;
+  background: #fff;
+  font-size: 14px;
+  border: 1px solid #eaeaec;
+  border-radius: 4px;
+  position: relative;
+  padding: 10px 12px 0;
+
+}
+
+.bag-item-image{
+    width: 100%;
+    height: 100%;
+}
+
+.bag-summary{
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+    padding: 25px 0 0 12px;
+    font-size: 13px;
+    color: #282c3f;
+    width: 35%;
+}
+.item-left-part{
+    position: absolute;
+    width: 111px;
+    height: 140px;
+    background: rgb(255, 242, 223);
+}
+.item-right-part{
+    margin-left: 114px;
+    min-height: 148px;
+    padding-left: 12px;
+    margin-bottom: 12px;
+    position: relative;
+}
+.remove-item{
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    font-size: 25px;
+    height: 14px;
+    width: 14px;
+    cursor: pointer;
+}
+
+.price-details-container{
+    margin-bottom: 12px;
+}
+.price-header{
+    font-weight: 700;
+    font-size: 14px;
+    margin: 24px 0 20px;
+    color: #535766;
+
+}
+.price-item{
+    line-height: 16px;
+    font-size: 12px;
+    color: #282c3f;
+    margin-bottom: 12px;
+}
+.price-item-value{
+    float: right;
+}
+.discount-item-value{
+    color: #03a685;
+}
+.price-footer{
+    font-weight: 700;
+    padding-top: 12px;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 1px solid gray;
+}
+.btn-place-order{
+    width: 100%;
+    background-color: red;
+    color: white;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.return-period{
+    display: inline-flex;
+    padding-top: 8px;
+    font-size: 16px;
+}
+.return-period-day{
+    font-weight: 700;
+    margin-right: 8px;
+}
+.dilivery-details{
+    color: #282c3f;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    letter-spacing: -.1px;
+}
+.dilivery-details-day{
+    
+    color: #03a685;
+}
